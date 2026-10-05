@@ -1,0 +1,5 @@
+backend,model,max_output_tokens,input_tokens,actual_output_tokens_avg,ttft_ms_avg,tpot_ms_avg,latency_s_avg,output_throughput_tok_s_avg,peak_allocated_memory_gb_avg,repeats
+transformers,Qwen/Qwen2.5-0.5B-Instruct,16,43,16,22.855,18.329,0.2978,53.75,0.941,3
+transformers,Qwen/Qwen2.5-0.5B-Instruct,64,43,64,22.129,18.83,1.2084,52.98,0.941,3
+transformers,Qwen/Qwen2.5-0.5B-Instruct,128,43,128,21.697,18.651,2.3904,53.59,0.941,3
+transformers,Qwen/Qwen2.5-0.5B-Instruct,256,43,256,21.28,18.601,4.7646,53.74,0.941,3

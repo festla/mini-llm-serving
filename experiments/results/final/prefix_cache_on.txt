@@ -1,0 +1,22 @@
+===== vLLM Prefix Cache Benchmark =====
+Input tokens: 1731
+Output tokens: 32
+Measured runs: 5
+
+===== Runtime Warmup =====
+Warmup TTFT=108.25 ms
+
+===== Measured Runs =====
+Run 1: TTFT=55.54 ms, TPOT=10.51 ms, Latency=0.381 s, Output=32
+Run 2: TTFT=26.11 ms, TPOT=7.96 ms, Latency=0.273 s, Output=32
+Run 3: TTFT=22.67 ms, TPOT=8.21 ms, Latency=0.277 s, Output=32
+Run 4: TTFT=26.73 ms, TPOT=8.24 ms, Latency=0.282 s, Output=32
+Run 5: TTFT=21.66 ms, TPOT=7.89 ms, Latency=0.266 s, Output=32
+
+===== Summary =====
+Cold TTFT: 55.54 ms
+Warm Avg TTFT: 24.29 ms
+Warm Median TTFT: 24.39 ms
+Warm Avg TPOT: 8.08 ms/token
+Cold Latency: 0.381 s
+Warm Avg Latency: 0.275 s

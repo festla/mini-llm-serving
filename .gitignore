@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / cache
+build/
+dist/
+*.egg-info/
+.cache/
+
+# CUDA / local installation files
+*.deb
+
+# Runtime logs
+*.log
+
+# Model / Hugging Face cache
+models/
+huggingface/
+.huggingface/

@@ -1,0 +1,35 @@
+===== vLLM Execution Mode Benchmark =====
+Mode: no_cudagraph
+Repeats: 3
+
+===== output_tokens=16 =====
+Warmup: TTFT=52.47 ms, TPOT=21.00 ms/token
+Run 1: TTFT=46.92 ms, TPOT=18.64 ms/token, Latency=0.327 s, Throughput=48.99 tok/s
+Run 2: TTFT=48.56 ms, TPOT=17.69 ms/token, Latency=0.314 s, Throughput=50.98 tok/s
+Run 3: TTFT=38.31 ms, TPOT=17.53 ms/token, Latency=0.301 s, Throughput=53.11 tok/s
+
+===== output_tokens=64 =====
+Warmup: TTFT=37.86 ms, TPOT=18.07 ms/token
+Run 1: TTFT=32.33 ms, TPOT=17.82 ms/token, Latency=1.155 s, Throughput=55.40 tok/s
+Run 2: TTFT=41.33 ms, TPOT=18.71 ms/token, Latency=1.220 s, Throughput=52.47 tok/s
+Run 3: TTFT=28.13 ms, TPOT=19.23 ms/token, Latency=1.240 s, Throughput=51.62 tok/s
+
+===== output_tokens=128 =====
+Warmup: TTFT=44.70 ms, TPOT=18.31 ms/token
+Run 1: TTFT=43.46 ms, TPOT=19.83 ms/token, Latency=2.562 s, Throughput=49.96 tok/s
+Run 2: TTFT=46.78 ms, TPOT=21.13 ms/token, Latency=2.731 s, Throughput=46.87 tok/s
+Run 3: TTFT=47.36 ms, TPOT=29.27 ms/token, Latency=3.765 s, Throughput=34.00 tok/s
+
+===== output_tokens=256 =====
+Warmup: TTFT=35.14 ms, TPOT=32.73 ms/token
+Run 1: TTFT=69.71 ms, TPOT=33.58 ms/token, Latency=8.634 s, Throughput=29.65 tok/s
+Run 2: TTFT=44.19 ms, TPOT=24.66 ms/token, Latency=6.332 s, Throughput=40.43 tok/s
+Run 3: TTFT=47.30 ms, TPOT=18.70 ms/token, Latency=4.817 s, Throughput=53.15 tok/s
+
+===== Final Summary =====
+Output= 16 | TTFT=44.60 ms | TPOT=17.95 ms/token | Latency=0.314 s | Throughput=51.03 tok/s
+Output= 64 | TTFT=33.93 ms | TPOT=18.59 ms/token | Latency=1.205 s | Throughput=53.16 tok/s
+Output=128 | TTFT=45.86 ms | TPOT=23.41 ms/token | Latency=3.019 s | Throughput=43.61 tok/s
+Output=256 | TTFT=53.73 ms | TPOT=25.65 ms/token | Latency=6.594 s | Throughput=41.08 tok/s
+
+Saved: experiments/results/final/vllm_execution_no_cudagraph.csv

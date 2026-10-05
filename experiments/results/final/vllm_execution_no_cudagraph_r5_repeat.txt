@@ -1,0 +1,5 @@
+===== vLLM Execution Mode Benchmark =====
+Mode: no_cudagraph
+Repeats: 5
+
+===== output_tokens=16 =====

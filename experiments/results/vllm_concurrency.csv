@@ -1,0 +1,5 @@
+backend,concurrency,total_latency,throughput
+vllm,1,1.104,115.90
+vllm,2,1.020,251.01
+vllm,4,1.066,480.19
+vllm,8,1.066,960.18

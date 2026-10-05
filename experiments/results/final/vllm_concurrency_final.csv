@@ -1,0 +1,5 @@
+backend,concurrency,max_output_tokens,requests_measured,avg_latency_s,p50_latency_s,p95_latency_s,avg_ttft_ms,p50_ttft_ms,p95_ttft_ms,output_throughput_tok_s,request_throughput_req_s,repeats
+vllm,1,128,3,0.9224,0.922,0.9279,17.458,16.935,18.401,138.7,1.084,3
+vllm,2,128,6,0.912,0.9122,0.9211,25.966,25.524,29.092,279.42,2.183,3
+vllm,4,128,12,0.9157,0.9161,0.925,32.076,32.795,34.829,557.19,4.353,3
+vllm,8,128,24,0.9424,0.9425,0.9471,41.317,41.759,46.268,1079.85,8.436,3

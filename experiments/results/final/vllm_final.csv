@@ -1,0 +1,5 @@
+backend,model,max_output_tokens,actual_output_tokens_avg,ttft_ms_avg,tpot_ms_avg,latency_s_avg,output_throughput_tok_s_avg,repeats
+vllm,Qwen/Qwen2.5-0.5B-Instruct,16,16,21.366,7.225,0.1297,123.32,3
+vllm,Qwen/Qwen2.5-0.5B-Instruct,64,64,19.613,7.303,0.4797,133.47,3
+vllm,Qwen/Qwen2.5-0.5B-Instruct,128,128,17.818,7.248,0.9384,136.42,3
+vllm,Qwen/Qwen2.5-0.5B-Instruct,256,256,18.192,7.541,1.9412,131.98,3

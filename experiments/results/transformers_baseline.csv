@@ -1,0 +1,5 @@
+backend,model,input_tokens,output_tokens,ttft,tpot_ms,throughput,memory_gb
+transformers,Qwen/Qwen2.5-0.5B-Instruct,43,16,0.026,17.93,54.25,0.948
+transformers,Qwen/Qwen2.5-0.5B-Instruct,43,64,0.0202,17.66,56.49,0.948
+transformers,Qwen/Qwen2.5-0.5B-Instruct,43,128,0.0209,17.74,56.31,0.948
+transformers,Qwen/Qwen2.5-0.5B-Instruct,43,256,0.0221,17.62,56.69,0.948

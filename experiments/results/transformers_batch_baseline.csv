@@ -1,0 +1,5 @@
+backend,batch_size,input_tokens,output_tokens,latency,throughput,memory_gb
+transformers,1,14,128,2.608,49.07,0.944
+transformers,2,14,128,2.734,93.62,0.957
+transformers,4,14,128,2.695,189.96,0.977
+transformers,8,14,128,2.744,373.12,1.018
